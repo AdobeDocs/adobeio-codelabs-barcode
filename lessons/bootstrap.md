@@ -35,7 +35,7 @@ packages:
       barcode:
         function: actions/barcode/index.js
         web: 'yes'
-        runtime: 'nodejs:10'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
         annotations:
